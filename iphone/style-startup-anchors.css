@@ -1,0 +1,287 @@
+/*
+ *
+ *	Add positioning for each Spa in Startup Guide for MOBILE here
+ *
+ *	Naming convention for each rollover anchor:
+ *
+ *		#sg-details-[SPA_NAME] a#sg-air-anchor-[POSITION]
+ *	
+ *	where [SPA_NAME] is the name of the spa in all lowercase (no special characters)
+ *	and [POSITION] is the number 1 through X of the rollover position, following image r1, r2 ... rN number format
+ *
+ *	EXAMPLE (Maxxus): #sg-details-maxxus a#sg-air-anchor-1
+ *
+ *
+ */
+
+
+/* - - - - - MAXXUS - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-maxxus a#sg-air-anchor-1 {
+	left: 1.5%;
+	top: 64.5%;
+	}
+	#sg-details-maxxus a#sg-air-anchor-2 {
+	left: 2%;
+	top: 33%;
+	}
+	#sg-details-maxxus a#sg-air-anchor-3 {
+	left: 2%;
+	top: 22%;
+	}
+	#sg-details-maxxus a#sg-air-anchor-4 {
+	left: 27%;
+	top: 2%;
+	}
+	#sg-details-maxxus a#sg-air-anchor-5 {
+	left: 60%;
+	top: 2%;
+	}
+	#sg-details-maxxus a#sg-air-anchor-6 {
+	left: 88%;
+	top: 38%;
+	}
+	#sg-details-maxxus a#sg-air-anchor-7 {
+	left: 85.5%;
+	top: 63.5%;
+	}
+	#sg-details-maxxus a#sg-air-anchor-8 {
+	left: 85.5%;
+	top: 73.5%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-maxxus a#sg-massage-anchor-1 {
+	left: 1.5%;
+	top: 59%;
+	}
+	#sg-details-maxxus a#sg-massage-anchor-2 {
+	left: 2%;
+	top: 33.5%;
+	}
+/* END MAXXUS */
+/* - - - - - ASPEN - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-aspen a#sg-air-anchor-1 {
+	left: 2%;
+	top: 73%;
+	}
+	#sg-details-aspen a#sg-air-anchor-2 {
+	left: 2%;
+	top: 41%;
+	}
+	#sg-details-aspen a#sg-air-anchor-3 {
+	left: 2%%;
+	top: 32%;
+	}
+	#sg-details-aspen a#sg-air-anchor-4 {
+	left: 2%%;
+	top: 21.5%;
+	}
+	#sg-details-aspen a#sg-air-anchor-5 {
+	left: 64%;
+	top: 2%;
+	}
+	#sg-details-aspen a#sg-air-anchor-6 {
+	left: 89%;
+	top: 28%;
+	}
+	#sg-details-aspen a#sg-air-anchor-7 {
+	left: 89%;
+	top: 5%;
+	}
+	#sg-details-aspen a#sg-air-anchor-8 {
+	left: 89%;
+	top: 75%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-aspen a#sg-massage-anchor-1 {
+	left: 2%;
+	top: 73%;
+	}
+	#sg-details-aspen a#sg-massage-anchor-2 {
+	left: 2%;
+	top: 11%;
+	}
+/* END ASPEN */
+
+/* - - - - - altamar - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-altamar a#sg-air-anchor-1 {
+	left: 34%;
+	top: 84%;
+	}
+	#sg-details-altamar a#sg-air-anchor-2 {
+	left: 2%;
+	top: 31%;
+	}
+	#sg-details-altamar a#sg-air-anchor-3 {
+	left: 25%;
+	top: 2%;
+	}
+	#sg-details-altamar a#sg-air-anchor-4 {
+	left: 50%;
+	top: 2%;
+	}
+	#sg-details-altamar a#sg-air-anchor-5 {
+	left: 65%;
+	top: 2%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-altamar a#sg-massage-anchor-1 {
+	left: 89%;
+	top: 31%;
+	}
+/* END altamar */
+
+/* - - - - - optima - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-optima a#sg-air-anchor-1 {
+	left: 2%;
+	top: 49%;
+	}
+	#sg-details-optima a#sg-air-anchor-2 {
+	left: 2%;
+	top: 24%;
+	}
+	#sg-details-optima a#sg-air-anchor-3 {
+	left: 27%;
+	top: 2%;
+	}
+	#sg-details-optima a#sg-air-anchor-4 {
+	left: 63%;
+	top: 2%;
+	}
+	#sg-details-optima a#sg-air-anchor-5 {
+	left: 89%;
+	top: 57%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-optima a#sg-massage-anchor-1 {
+	left: 2%;
+	top: 24%;
+	}
+	#sg-details-optima a#sg-massage-anchor-2 {
+	left: 89%;
+	top: 20%;
+	}
+/* END optima */
+
+/* - - - - - cameo - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-cameo a#sg-air-anchor-1 {
+	left: 21%;
+	top: 79%;
+	}
+	#sg-details-cameo a#sg-air-anchor-2 {
+	left: 2%;
+	top: 59%;
+	}
+	#sg-details-cameo a#sg-air-anchor-3 {
+	left: 63%;
+	top: 2%;
+	}
+	#sg-details-cameo a#sg-air-anchor-4 {
+	left: 89%;
+	top: 43%;
+	}
+	#sg-details-cameo a#sg-air-anchor-5 {
+	left: 89%;
+	top: 58%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-cameo a#sg-massage-anchor-1 {
+	left: 2%;
+	top: 50%;
+	}
+	#sg-details-cameo a#sg-massage-anchor-2 {
+	left: 89%;
+	top: 54%;
+	}
+/* END cameo */
+
+/* - - - - - majesta - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-majesta a#sg-air-anchor-1 {
+	left: 2%;
+	top: 51%;
+	}
+	#sg-details-majesta a#sg-air-anchor-2 {
+	left: 26%;
+	top: 2%;
+	}
+	#sg-details-majesta a#sg-air-anchor-3 {
+	left: 38%;
+	top: 2%;
+	}
+	#sg-details-majesta a#sg-air-anchor-4 {
+	left: 89%;
+	top: 23%;
+	}
+	#sg-details-majesta a#sg-air-anchor-5 {
+	left: 89%;
+	top: 37%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-majesta a#sg-massage-anchor-1 {
+	left: 2%;
+	top: 33%;
+	}
+/* END majesta */
+
+/* - - - - - marin - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-marin a#sg-air-anchor-1 {
+	left: 31%;
+	top: 90%;
+	}
+	#sg-details-marin a#sg-air-anchor-2 {
+	left: 2%;
+	top: 32%;
+	}
+	#sg-details-marin a#sg-air-anchor-3 {
+	left: 29%;
+	top: 2%;
+	}
+	#sg-details-marin a#sg-air-anchor-4 {
+	left: 67%;
+	top: 2%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-marin a#sg-massage-anchor-1 {
+	left: 2%;
+	top: 38%;
+	}
+/* END marin */
+
+/* - - - - - capri - - - - - */
+	/* air controls section */
+	/* rollover anchors */
+	#sg-details-capri a#sg-air-anchor-1 {
+	left: 30%;
+	top: 71%;
+	}
+	#sg-details-capri a#sg-air-anchor-2 {
+	left: 27%;
+	top: 2%;
+	}
+	/* massage controls section */
+	/* rollover anchors */
+	#sg-details-capri a#sg-massage-anchor-1 {
+	left: 2%;
+	top: 32%;
+	}
+/* END capri */
