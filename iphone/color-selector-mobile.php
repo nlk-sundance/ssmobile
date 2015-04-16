@@ -7,10 +7,10 @@
 .color-selector.color-selector-container { xheight: 600px; margin-top: 1px; width: 100%; }
 .color-selector.color-selector-container .color-selector-wrapper { margin: auto; width: 100%; }
 .color-selector.color-selector-container .color-selector-wrapper .left { box-sizing: border-box; xfloat: left; xheight: 400px; margin-right: 45px; text-align: center; width: 100%; }
-.color-selector.color-selector-container .color-selector-wrapper .left .tub-container { margin-top: 70px; height: 380px; overflow: visible; position: relative; }
+.color-selector.color-selector-container .color-selector-wrapper .left .tub-container { margin-top: 70px; height: 180px; overflow: visible; position: relative; }
 .color-selector.color-selector-container .color-selector-wrapper .left .tub-container div { xposition: absolute; }
-.color-selector.color-selector-container .color-selector-wrapper .left .tub-container .tub-skirt img { z-index: 1; height: 313px; left: 0; opacity: 0; position: absolute; top: 35px; width: 576px; -webkit-transition: opacity .05s; transition: opacity .05s; }
-.color-selector.color-selector-container .color-selector-wrapper .left .tub-container .tub-shell img { z-index: 2; height: 137px; left: 0; opacity: 0; position: absolute; top: 0; width: 576px; -webkit-transition: opacity .05s; transition: opacity .05s; }
+.color-selector.color-selector-container .color-selector-wrapper .left .tub-container .tub-skirt img { z-index: 1; height: auto !important; left: 0; opacity: 0; position: absolute; top: 18px; width: 450px; -webkit-transition: opacity .05s; transition: opacity .05s; }
+.color-selector.color-selector-container .color-selector-wrapper .left .tub-container .tub-shell img { z-index: 2; height: auto !important; left: 0; opacity: 0; position: absolute; top: 0; width: 450px; -webkit-transition: opacity .05s; transition: opacity .05s; }
 .color-selector.color-selector-container .color-selector-wrapper .left .tub-container img.active { opacity: 1; }
 .color-selector.color-selector-container .color-selector-wrapper .left .tub-details {font-family: "GSL"; margin-top: 14px; padding-left: 10px; text-align: left; }
 .color-selector.color-selector-container .color-selector-wrapper .left .tub-details h3 { font-size: 13px; }
@@ -154,8 +154,8 @@ div[timg="silverwood"] img { background-color: #635e5f; }
 
 .color-selector-wrapper h1.color-heading 
 {
-	font-size: 54px;
-	line-height: 60px;
+	font-size: 30px;
+	line-height: 34px;
 	margin-top: 25px;
 	color: #786c5f;
 	font-family: "AL";
@@ -164,8 +164,8 @@ div[timg="silverwood"] img { background-color: #635e5f; }
 
 .color-selector-wrapper .tub-details p
 {
-	font-size: 21px;
-	line-height: 24px;
+	font-size: 13px;
+	line-height: 18px;
 	margin-top: 25px;
 	font-style: italic;
 	color: #786c5f;
@@ -199,7 +199,7 @@ div[timg="silverwood"] img { background-color: #635e5f; }
 				</div>
 			</div>
 			<div class="tub-details">
-				<p>Cameo&trade; model shown for visualization purposes only. Tub size and jet placement will vary by model. Not all colors available in all models. See individual product pages for available colors.</p>
+				<p>*Cameo&trade; model shown for visualization purposes only. Tub size and jet placement will vary by model. Not all colors available in all models. See individual product pages for available colors.</p>
 			</div>
 
 		</div>
