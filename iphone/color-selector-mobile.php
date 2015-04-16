@@ -7,7 +7,7 @@
 .color-selector.color-selector-container { xheight: 600px; margin-top: 1px; width: 100%; }
 .color-selector.color-selector-container .color-selector-wrapper { margin: auto; width: 100%; }
 .color-selector.color-selector-container .color-selector-wrapper .left { box-sizing: border-box; xfloat: left; xheight: 400px; margin-right: 45px; text-align: center; width: 100%; }
-.color-selector.color-selector-container .color-selector-wrapper .left .tub-container { margin-top: 70px; height: 180px; overflow: visible; position: relative; }
+.color-selector.color-selector-container .color-selector-wrapper .left .tub-container { margin-top: 30px; height: 280px; overflow: visible; position: relative; }
 .color-selector.color-selector-container .color-selector-wrapper .left .tub-container div { xposition: absolute; }
 .color-selector.color-selector-container .color-selector-wrapper .left .tub-container .tub-skirt img { z-index: 1; height: auto !important; left: 0; opacity: 0; position: absolute; top: 18px; width: 450px; -webkit-transition: opacity .05s; transition: opacity .05s; }
 .color-selector.color-selector-container .color-selector-wrapper .left .tub-container .tub-shell img { z-index: 2; height: auto !important; left: 0; opacity: 0; position: absolute; top: 0; width: 450px; -webkit-transition: opacity .05s; transition: opacity .05s; }
@@ -154,8 +154,8 @@ div[timg="silverwood"] img { background-color: #635e5f; }
 
 .color-selector-wrapper h1.color-heading 
 {
-	font-size: 30px;
-	line-height: 34px;
+	font-size: 24px;
+	line-height: 28px;
 	margin-top: 25px;
 	color: #786c5f;
 	font-family: "AL";
@@ -171,6 +171,12 @@ div[timg="silverwood"] img { background-color: #635e5f; }
 	color: #786c5f;
 	font-family: "Verdana";
 	margin-bottom: 25px;
+}
+
+@media only screen  
+and (max-width : 450px)  
+{
+	.color-selector.color-selector-container .color-selector-wrapper .left .tub-container { margin-top: 30px; height: 180px; overflow: visible; position: relative; }	
 }
 
 </style>
