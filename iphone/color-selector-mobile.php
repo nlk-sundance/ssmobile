@@ -183,7 +183,7 @@ and (max-width : 450px)
 <div class="color-selector color-selector-container">
 
 	<div class="color-selector-wrapper">
-		<h1 class="color-heading hidemodal">Hot Tub Color Selector</h1>
+		<h1 class="color-heading hidemodal">Spa Color Selector</h1>
 		<div class="left">
 
 			<div class="tub-container">
@@ -205,7 +205,7 @@ and (max-width : 450px)
 				</div>
 			</div>
 			<div class="tub-details">
-				<p>*Cameo&trade; model shown for visualization purposes only. Tub size and jet placement will vary by model. Not all colors available in all models. See individual product pages for available colors.</p>
+				<p>*Cameo&trade; model shown for visualization purposes only. Spa size and jet placement will vary by model. Not all colors available in all models. See individual product pages for available colors.</p>
 			</div>
 
 		</div>
@@ -216,7 +216,7 @@ and (max-width : 450px)
 			<div class="shells">
 				<div class="shell thumb active" timg="celestite" data-pdf="celestite" rel="Celestite" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/shells/celestite-thumb.jpg" height="50" width="50"/></div>
 				<div class="shell thumb" timg="platinum" data-pdf="platinum" rel="Platinum" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/shells/platinum-thumb.jpg" height="50" width="50" /></div>
-				<div class="shell thumb" timg="oyester" data-pdf="oyester" rel="Oyester" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/shells/oyester-thumb.jpg" height="50" width="50" /></div>
+				<div class="shell thumb" timg="oyester" data-pdf="oyester" rel="Oyster" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/shells/oyester-thumb.jpg" height="50" width="50" /></div>
 				<div class="shell thumb" timg="sahara" data-pdf="sahara" rel="Sahara" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/shells/sahara-thumb.jpg" height="50" width="50" /></div>
 				<div class="shell thumb" timg="sand" data-pdf="sand" rel="Sand" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/shells/sand-thumb.jpg" height="50" width="50" /></div>
 				<div class="shell thumb" timg="coppersand" data-pdf="coppersand" rel="Copper Sand" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/shells/coppersand-thumb.jpg" height="50" width="50" /></div>
