@@ -77,6 +77,10 @@ foreach ( $jht_jets as $v ) $jetcount += $v;
 			<div class="lbl">Monthly Operating Cost 60&deg;F / 15&deg;C</div>
             <div class="cost"><?php esc_attr_e($jht_specs['emoc']); ?></div>
         </div></div>
+        <ul class="tubinfo">
+            <li>Monthly energy costs are estimates based on the results of the California Energy Commissions Portable Hot Tub Testing Protocol. Ambient temperature of 60° F / 15° C and national average of 10 cents per kWh. Actual monthly costs may vary depending on temperature, electricity costs, and usage.</li>
+        </ul>
+            
         <div class="tubcolors">
         <h3>Shell Colors</h3>
             <ul>
