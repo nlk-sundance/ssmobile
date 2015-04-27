@@ -227,7 +227,7 @@ and (max-width : 450px)
 			<h2><strong>Cabinetry:</strong> <span class="skirt-name"></span></h2>
 			<div class="skirts">
 				<div class="skirt thumb coastal active" timg="coastal" rel="Coastal" data-pdf="coastal" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/skirts/coastal-thumb.jpg" height="50" width="50" /></div>
-				<div class="skirt thumb mahogny" timg="mahogny" rel="Mahogny" data-pdf="mahogny" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/skirts/mahogny-thumb.jpg" height="50" width="50" /></div>
+				<div class="skirt thumb mahogny" timg="mahogny" rel="Mahogany" data-pdf="mahogny" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/skirts/mahogny-thumb.jpg" height="50" width="50" /></div>
 				<div class="skirt thumb autumnwall" timg="autumnwall" rel="Autumn Walnut" data-pdf="autumnwall" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/colorselector/skirts/autumnwall-thumb.jpg" height="50" width="50" /></div>
 			</div>
 			<a class="btn bigBlueBtn" href="<?php echo get_bloginfo('url'); ?>/get-a-quote/">Get Pricing</a>
