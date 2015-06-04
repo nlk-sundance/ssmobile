@@ -73,6 +73,21 @@ foreach ( $jht_jets as $v ) $jetcount += $v;
             <li><strong>Water Purification System:</strong> <?php echo $jht_specs['wps']; ?></li>
             <li><strong>Spa Volume:</strong> <?php esc_attr_e($jht_specs['vol_us']); ?></li>
         </ul>
+        <?php if ( msrp_display() ) : ?>
+            <?php
+            $msrp = esc_attr($jht_specs['msrp']);
+            $msrp = ( $msrp[0] == '$' ? $msrp : '$'.$msrp );
+            ?>
+            <div class="msrp-button">
+                <a id="show-msrp" href="#" class="getpricing" rel="View Suggested Retail Pricing">View Suggested Retail Pricing</a>
+            </div>
+            <div class="msrp-container" style="display:none;">
+                <?php echo '<p class="msrp-price"><span>' . $msrp . '</span> Suggested Retail</p>'; ?>
+                <p class="msrp-disclaimer">Prices listed are suggested retail price. Actual retail price may vary based on rebates and/or incentives that may be available at your local dealer. Please request a quote or visit your local dealer for current pricing information.</p>
+                <a class="msrp-dealer" href="<?php bloginfo('url'); ?>/dealer-locator/">Find Your Nearest Dealer</a>
+                <a class="msrp-pricing" href="<?php bloginfo('url'); ?>/get-a-quote/?tid=<?php echo $post->ID; ?>">Request Pricing from Dealer</a>
+            </div>
+        <?php endif; ?>
         <div class="moc"><div class="min">
 			<div class="lbl">Monthly Operating Cost 60&deg;F / 15&deg;C</div>
             <div class="cost"><?php esc_attr_e($jht_specs['emoc']); ?></div>
