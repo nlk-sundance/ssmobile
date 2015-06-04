@@ -84,7 +84,7 @@ foreach ( $jht_jets as $v ) $jetcount += $v;
             <div class="msrp-container" style="display:none;">
                 <?php echo '<p class="msrp-price"><span>' . $msrp . '</span> Suggested Retail</p>'; ?>
                 <p class="msrp-disclaimer">Prices listed are suggested retail price. Actual retail price may vary based on rebates and/or incentives that may be available at your local dealer. Please request a quote or visit your local dealer for current pricing information.</p>
-                <a class="msrp-dealer" href="<?php bloginfo('url'); ?>/dealer-locator/">Find Your Nearest Dealer</a>
+                <a class="msrp-dealer" href="<?php bloginfo('url'); ?>/hot-tub-dealer-locator/">Find Your Nearest Dealer</a>
                 <a class="msrp-pricing" href="<?php bloginfo('url'); ?>/get-a-quote/?tid=<?php echo $post->ID; ?>">Request Pricing from Dealer</a>
             </div>
         <?php endif; ?>
