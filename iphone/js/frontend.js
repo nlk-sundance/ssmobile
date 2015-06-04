@@ -47,3 +47,17 @@ function jht_fposition( position ) {
 		}
 	});
 }
+
+(function($){
+	$(window).load(function(){
+		$('#show-msrp').click(function(){
+			if ( $(this).hasClass('close') ) { 
+			    $('.msrp-container').hide(); 
+			    $(this).removeClass('close').text('View Suggested Retail Pricing'); 
+			} else { 
+			    $('.msrp-container').show(); 
+			    $(this).addClass('close').text('Close'); 
+			}
+		});
+	});
+})(jQuery);
