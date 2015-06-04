@@ -3592,18 +3592,21 @@ div.msrp-button {
 	padding: 10px;
 }
 a.getpricing, a.msrp-dealer, a.msrp-pricing {
-	font: 400 16px/22px 'AH', Helvetica, Geneva, arial, sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #fff;
-	letter-spacing: 1px;
-	cursor: pointer;
-	text-align: center;
-	text-shadow: 1px 1px 1px #018EA1, -1px -1px 1px #017C8C, 0px 0px 2px #fff;
-	display: block;
 	border: 1px solid #fff;
 	border-radius: 8px;
 	box-shadow: 3px 3px 6px #444;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font: 400 15px/32px 'AH', Helvetica, Geneva, arial, sans-serif;
+	height: 30px;
+	letter-spacing: 1px;
+	margin: 10px auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px 1px #018EA1, -1px -1px 1px #017C8C, 0px 0px 2px #fff;
+
 	background: rgb(1,142,161);
 	background: -moz-linear-gradient(top, rgba(1,142,161,1) 0%, rgba(1,142,161,1) 50%, rgba(1,124,140,1) 51%, rgba(1,124,140,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(1,142,161,1)), color-stop(50%,rgba(1,142,161,1)), color-stop(51%,rgba(1,124,140,1)), color-stop(100%,rgba(1,124,140,1)));
@@ -3620,6 +3623,7 @@ a.getpricing, a.msrp-dealer, a.msrp-pricing {
 a.getpricing.close {
 	background: #c2c2c2;
 	background-color: #c2c2c2;
+	text-shadow: none;
 }
 div.msrp-container {
 	background-color: #efefef;
@@ -3639,6 +3643,9 @@ div.msrp-container:before {
 	position: absolute;
 	top: 0px;
 	width: 0px;
+}
+div.msrp-container + .moc {
+	margin-top: 14px;
 }
 p.msrp-price {
 	font-size: 18px;
