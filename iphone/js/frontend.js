@@ -59,5 +59,10 @@ function jht_fposition( position ) {
 			    $(this).addClass('close').text('Close'); 
 			}
 		});
+
+		$('.msrp-pricing').click(function(event){
+			event.preventDefault();
+			$('input#dlzip').focus();
+		});
 	});
 })(jQuery);
