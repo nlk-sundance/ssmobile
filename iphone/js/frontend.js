@@ -60,7 +60,7 @@ function jht_fposition( position ) {
 			}
 		});
 
-		$('.msrp-pricing').click(function(event){
+		$('.msrp-dealer').click(function(event){
 			event.preventDefault();
 			$('input#dlzip').focus();
 		});
