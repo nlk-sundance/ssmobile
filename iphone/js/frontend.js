@@ -53,7 +53,7 @@ function jht_fposition( position ) {
 		$('#show-msrp').click(function(){
 			if ( $(this).hasClass('close') ) { 
 			    $('.msrp-container').hide(); 
-			    $(this).removeClass('close').text('View Suggested Retail Pricing'); 
+			    $(this).removeClass('close').text('View MSRP'); 
 			} else { 
 			    $('.msrp-container').show(); 
 			    $(this).addClass('close').text('Close'); 
