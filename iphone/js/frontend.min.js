@@ -18,6 +18,7 @@ function jht_position( position ) {
 					if ( results[0].address_components[a].types[0] == 'postal_code' ) {
 						jQuery('#dlzip').val( results[0].address_components[a].long_name );
 						jhtaok = true;
+						jQuery.cookie('jhtgeo', results[0].address_components[a].long_name, { expires: 7 });
 						jQuery('#dltopform').submit();
 					}
 				}
