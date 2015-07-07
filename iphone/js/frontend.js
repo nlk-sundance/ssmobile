@@ -18,6 +18,7 @@ function jht_position( position ) {
 					if ( results[0].address_components[a].types[0] == 'postal_code' ) {
 						jQuery('#dlzip').val( results[0].address_components[a].long_name );
 						jhtaok = true;
+						jQuery.cookie('jhtgeo', results[0].address_components[a].long_name, { expires: 7 });
 						jQuery('#dltopform').submit();
 					}
 				}
@@ -47,3 +48,22 @@ function jht_fposition( position ) {
 		}
 	});
 }
+
+(function($){
+	$(window).load(function(){
+		$('#show-msrp').click(function(){
+			if ( $(this).hasClass('close') ) { 
+			    $('.msrp-container').hide(); 
+			    $(this).removeClass('close').text('View MSRP'); 
+			} else { 
+			    $('.msrp-container').show(); 
+			    $(this).addClass('close').text('Close'); 
+			}
+		});
+
+		$('.msrp-dealer').click(function(event){
+			event.preventDefault();
+			$('input#dlzip').focus();
+		});
+	});
+})(jQuery);
