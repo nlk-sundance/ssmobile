@@ -44,6 +44,13 @@ $jht_jets = $custom[0];
 $jetcount = 0;
 foreach ( $jht_jets as $v ) $jetcount += $v;
 		?>
+<script>
+dataLayer.push({ 
+    'pageType':'productPage',
+    'msrpStatus':<?php echo ( msrp_display() ? 'MSRP Available' : 'MSRP Not Available' ); ?>, // status if in test market or not - optional
+    'event':'pageReady'
+});
+</script>
 
 		<div class="post <?php //wptouch_post_classes(); ?> tubtop">
 
