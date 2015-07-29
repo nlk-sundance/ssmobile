@@ -2782,6 +2782,7 @@ ul.tubinfo li {
 	width: 100%;
 	height: 225px;
 	background: url(images/dealerland.jpg) no-repeat 50% 0;
+	/*background: url(images/MobilePromo.jpg) no-repeat 50% 0;*/
 	background-size: cover;
 	position: relative;
 	z-index: 1;

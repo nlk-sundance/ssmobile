@@ -19,8 +19,8 @@ get_header(); ?>
 				<?php //wptouch_the_content(); ?>
                     	<?php
 						global $post;
-						//global $tubcats;
-						$tubcats = get_transient( 's_tubcats' );
+						global $tubcats;
+						//$tubcats = get_transient( 's_tubcats' );
 						if ( $post->ID == 1894 ) { // HOT TUBS landing page
 						//echo '<pre>'. print_r($tubcats,true) .'</pre>';
 							// only loop through main cats (for now?)
