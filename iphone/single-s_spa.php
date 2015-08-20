@@ -88,7 +88,7 @@ dataLayer.push({
             <div class="msrp-button">
                 <a id="show-msrp" href="#" class="getpricing" rel="View MSRP">View MSRP</a>
             </div>
-            <div class="msrp-container" style="display:none;">
+            <div class="msrp-container">
                 <?php echo '<p class="msrp-price"><span>' . $msrp . '</span> MSRP</p>'; ?>
                 <p class="msrp-disclaimer">Prices listed are Manufacturer's Suggested Retail Price (MSRP). Prices may not include additional fees, see authorized dealer for details.</p>
                 <a class="msrp-dealer" href="<?php bloginfo('url'); ?>/hot-tub-dealer-locator/">Find Your Nearest Dealer</a>
