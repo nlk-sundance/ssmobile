@@ -3630,7 +3630,8 @@ a.getpricing.close {
 div.msrp-container {
 	background-color: #efefef;
 	padding: 10px;
-	position: relative;
+	/*position: relative;*/
+	display: inline-block;
 }
 div.msrp-container:before {
 	background-color: transparent;
