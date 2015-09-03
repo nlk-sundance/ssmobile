@@ -466,6 +466,9 @@ p.msrp-disclaimer {font-size: 14px;line-height: 1.5em;}
 /*grvaity forms*/
 div.gform_wrapper ul, div.gform_wrapper ol {text-indent: 0px!important;}
 div.gform_wrapper div.ui-select .ui-btn-inner, div.gform_wrapper div.ui-submit .ui-btn-inner {display: none;}
-div.gform_wrapper div.ui-submit input[type="submit"] {width:100%;}
+div.gform_wrapper input[type="submit"] {width:100%;}
 .gf_left_half, .gf_right_half {width: 100%!important;}
 .wpb_row{margin:0!important;}
+div.gform_wrapper span.form-control{display:none;}
+div.gform_wrapper input[type="radio"] {float:left;}
+div.gform_wrapper div.radio {margin:10px;}
