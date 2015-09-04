@@ -23,6 +23,8 @@ function ssmob_setup() {
 	
 	add_action('wp_print_scripts', 'jhtmob_jscleanup', 100);
 	
+	add_action( 'wp_print_scripts', 'bazaar_voice_scripts' );
+
 	remove_action( 'wp_enqueue_scripts', 'ace_main_scripts' );
 }
 
@@ -357,7 +359,7 @@ function classic_commenter_link() {
 				wp_enqueue_script( 'bvapi-js', '//display.ugc.bazaarvoice.com/static/sundancespas/en_US/bvapi.js', array(), '1.0', false); //production
 			}
 		}
-		add_action( 'wp_enqueue_scripts', 'bazaar_voice_scripts' );
+		
 	}
 
 /** END BazaarVoice **/
