@@ -23,7 +23,7 @@ function ssmob_setup() {
 	
 	add_action('wp_print_scripts', 'jhtmob_jscleanup', 100);
 	
-	add_action( 'wp_print_scripts', 'bazaar_voice_scripts' );
+	add_action( 'wp_print_scripts', 'mob_bazaar_voice_scripts', 100 );
 
 	remove_action( 'wp_enqueue_scripts', 'ace_main_scripts' );
 }
@@ -349,8 +349,7 @@ function classic_commenter_link() {
 	include_once('/wp-content/themes/sundance/includes/bvseosdk.php');
 
 	// Enqueue BV scripts
-	if ( ! function_exists('bazaar_voice_scripts') ) {
-		function bazaar_voice_scripts() {
+	function mob_bazaar_voice_scripts() {
 			// load bvpai.js
 			if ( is_page('reviews') ) {
 				wp_enqueue_script( 'bvapi-js', '//display.ugc.bazaarvoice.com/static/sundancespas/ReadOnly/en_US/bvapi.js', array(), '1.0', false); //production
@@ -358,8 +357,6 @@ function classic_commenter_link() {
 			else {
 				wp_enqueue_script( 'bvapi-js', '//display.ugc.bazaarvoice.com/static/sundancespas/en_US/bvapi.js', array(), '1.0', false); //production
 			}
-		}
-		
 	}
 
 /** END BazaarVoice **/
