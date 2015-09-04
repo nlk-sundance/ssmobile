@@ -351,24 +351,10 @@ function classic_commenter_link() {
 		function bazaar_voice_scripts() {
 			// load bvpai.js
 			if ( is_page('reviews') ) {
-				if( sds_my_server() != 'live' )
-				{
-					wp_enqueue_script( 'bvapi-js', '//display-stg.ugc.bazaarvoice.com/static/sundancespas/ReadOnly/en_US/bvapi.js', array(), '1.0', false); //staging
-				}
-				else
-				{
-					wp_enqueue_script( 'bvapi-js', '//display.ugc.bazaarvoice.com/static/sundancespas/ReadOnly/en_US/bvapi.js', array(), '1.0', false); //production
-				}
+				wp_enqueue_script( 'bvapi-js', '//display.ugc.bazaarvoice.com/static/sundancespas/ReadOnly/en_US/bvapi.js', array(), '1.0', false); //production
 			}
 			else {
-				if( sds_my_server() != 'live' )
-				{
-					wp_enqueue_script( 'bvapi-js', '//display-stg.ugc.bazaarvoice.com/static/sundancespas/en_US/bvapi.js', array(), '1.0', false); //staging
-				}
-				else
-				{
-					wp_enqueue_script( 'bvapi-js', '//display.ugc.bazaarvoice.com/static/sundancespas/en_US/bvapi.js', array(), '1.0', false); //production
-				}
+				wp_enqueue_script( 'bvapi-js', '//display.ugc.bazaarvoice.com/static/sundancespas/en_US/bvapi.js', array(), '1.0', false); //production
 			}
 		}
 		add_action( 'wp_enqueue_scripts', 'bazaar_voice_scripts' );
