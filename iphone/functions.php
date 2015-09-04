@@ -344,7 +344,7 @@ function classic_commenter_link() {
 /** BV : BazaarVoice Integrations **/
 
 	// load SDK
-	require_once('/wp-content/themes/sundance/includes/bvseosdk.php');
+	include_once('/wp-content/themes/sundance/includes/bvseosdk.php');
 
 	// Enqueue BV scripts
 	if ( ! function_exists('bazaar_voice_scripts') ) {
