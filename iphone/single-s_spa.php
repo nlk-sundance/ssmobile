@@ -1,5 +1,6 @@
 <?php get_header(); ?>	
 
+
 	<?php if ( wptouch_have_posts() ) { ?>
 	
 		<?php wptouch_the_post();
@@ -10,6 +11,18 @@ $s_info = $custom[0];
 		
 $custom = get_post_meta($post->ID,'s_specs');
 $jht_specs = $custom[0];
+
+$prod = esc_attr($jht_specs['product_id']);
+$is_staging = FALSE; // jht_my_server() == 'live' ? FALSE : TRUE;
+
+$bv = new BV(
+    array(
+        'deployment_zone_id' => 'Main_Site-en_US',
+        'product_id' => $prod, // must match ExternalID in the BV product feed
+        'cloud_key' => 'jacuzzi-6e973cecb3ca4a2d532da7d906a4cc84',
+        'staging' => $is_staging
+        )
+    );
 
 
 $custom = get_post_meta($post->ID,'s_colors');
@@ -50,6 +63,11 @@ dataLayer.push({
     'msrpStatus':<?php echo ( msrp_display() ? '"MSRP Available"' : '"MSRP Not Available"' ); ?>, // status if in test market or not - optional
     'event':'pageReady'
 });
+</script>
+<script type="text/javascript">
+    $BV.ui( 'rr', 'show_reviews', {
+        doShowContent : function () {}
+    });
 </script>
 
 		<div class="post <?php //wptouch_post_classes(); ?> tubtop">
