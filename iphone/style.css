@@ -2723,6 +2723,24 @@ ul.tubinfo li {
 .moc .cost {
 	font-size: 18px;
 }
+.mvid {
+  float: left;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+.mvid iframe,
+.mvid object,
+.mvid embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .tubcolors {
 	display: block;
 	float: left;
