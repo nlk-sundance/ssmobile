@@ -428,8 +428,7 @@ function doClassicReady() {
 						var dinfo = dh3.siblings('.dealerinfo');
 					} else {
 						dh3 = jQuery('<h3>'+ jQuery(result).find('.dealer-details h2').children().html() + '</h3>');
-						var dinfo = jQuery('<p />');
-						jQuery(result).find('.dealer-address').children().prependTo(dinfo);
+						var dinfo = jQuery('<p>'+ jQuery(result).find('.dealer-address').text().trim() +'</p>');
 					}
 					dh3.add(dinfo).appendTo('#dlresult');
 					
