@@ -1,5 +1,17 @@
 <?php get_header(); ?>	
 
+<script src="<?php wptouch_bloginfo( 'template_directory' ); ?>/js/readmore.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#readmorediv').readmore({
+										  speed: 75,
+										  collapsedHeight: 65,
+										  moreLink: '<a href="#">Learn More</a>'
+										});
+
+	});	
+</script>
 
 	<?php if ( wptouch_have_posts() ) { ?>
 	
@@ -88,7 +100,7 @@ dataLayer.push({
 			?>
             <div class="content">
 				<h2><?php esc_attr_e($s_info['topheadline']); ?></h2>
-				<?php wptouch_the_content(); ?>
+				<div id"readmorediv"><?php wptouch_the_content(); ?></div>
             </div>
 		</div>
         <ul class="tubinfo">
