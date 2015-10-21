@@ -100,7 +100,7 @@ dataLayer.push({
 			?>
             <div class="content">
 				<h2><?php esc_attr_e($s_info['topheadline']); ?></h2>
-				<div id="readmorediv"><?php wptouch_the_content(); ?></div>
+				<?php wptouch_the_content(); ?>
             </div>
 		</div>
         <ul class="tubinfo">
