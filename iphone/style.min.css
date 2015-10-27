@@ -472,3 +472,7 @@ div.gform_wrapper input[type="submit"] {width:100%;margin:10px 0;}
 div.gform_wrapper span.form-control{display:none;}
 div.gform_wrapper input[type="radio"] {float:left;}
 div.gform_wrapper div.radio {margin:10px;}
+
+.theme-jhtmobile .bv-popup-in {
+	display: none !important;
+}
