@@ -2808,6 +2808,7 @@ ul.tubinfo li {
 }
 .canada #dlandimg {
 	background: url(images/promo/hero12112015CA.jpg) no-repeat 50% 0; /* Promo image */
+	background-size: cover;
 }
 #dltopform {
 	display: block;
