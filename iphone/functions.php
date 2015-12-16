@@ -153,6 +153,12 @@ function classic_body_classes( $body_classes ) {
 		$body_classes[] = 'video-css';
 	}
 
+	if ( in_array($_SERVER['SERVER_NAME'],array('www.sundancespas.ca','sundancespas.ca')) ) {
+		$body_classes[] = 'canada';
+	} else {
+		$body_classes[] = 'not-canada';
+	}
+
 	return $body_classes;
 }
 
