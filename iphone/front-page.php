@@ -10,7 +10,7 @@
 		<input type="submit" data-role="none" value="SEARCH" class="dlsub" />
 		</form>
 	</div>
-	<div id="dlandimg"></div>
+	<div id="dlandimg" class="landing-img"></div>
     <div id="dlrap"><div id="dlresult"></div></div>
     <?php
 			global $post_ID;;
