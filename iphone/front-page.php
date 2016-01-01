@@ -12,21 +12,14 @@
 	</div>
 	<div id="dlandimg"></div>
     <div id="dlrap"><div id="dlresult"></div></div>
-    <style type="text/css">
-		#dlandimg {
-			background-image: url('http://staging.sundancespas.com/wp-content/wptouch-data/themes/ssmobile/iphone/images/promo/hero12112015.jpg') !important;
-		}
-	</style>
-	<?php
-		
-			echo '<!-- Coming here -->';
+    <?php
 			global $post_ID;;
 			$banner_image = get_field('banner-img', $post_ID );
 			if($banner_image):
 			?>
 				<style type="text/css">
 					#dlandimg {
-					    background-image: url('<?php echo $banner_image; ?>');
+					    background-image: url('<?php echo $banner_image; ?>') !important;
 					}
 				</style>
 			<?php
