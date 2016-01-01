@@ -5,23 +5,6 @@
 	<title><?php wptouch_title(); ?></title>
 	<?php //if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 	<?php wptouch_head(); ?>
-	<?php
-		if(is_front_page())
-		{
-			echo '<!-- Coming here -->';
-			global $post;
-			$banner_image = get_field('banner-img', $post->ID );
-			if($banner_image):
-			?>
-				<style type="text/css">
-					#dlandimg {
-					    background-image: url('<?php echo $banner_image; ?>');
-					}
-				</style>
-			<?php
-			endif;
-		}
-	?>
 </head>
 <?php flush(); ?>
 <body class="<?php wptouch_body_classes(); ?>">
