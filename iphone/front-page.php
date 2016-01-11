@@ -13,7 +13,7 @@
 	<div id="dlandimg" class="landing-img"></div>
     <div id="dlrap"><div id="dlresult"></div></div>
     <?php
-			global $post_ID;;
+			global $post_ID;
 			$banner_image = get_field('banner-img', $post_ID );
 			if($banner_image):
 			?>
