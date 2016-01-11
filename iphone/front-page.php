@@ -14,8 +14,7 @@
     <div id="dlrap"><div id="dlresult"></div></div>
     <?php
 			global $post_ID;
-			//$banner_image = get_field('banner-img', $post_ID );
-			$banner_image = get_post_meta($post_ID, 'banner-img', true);
+			$banner_image = get_field('banner-img', $post_ID );
 			if($banner_image):
 			?>
 				<style type="text/css">
