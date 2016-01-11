@@ -25,5 +25,6 @@
 			<?php
 			endif;
 	?>
+	
 <?php } ?>
 <?php get_footer(); ?>
