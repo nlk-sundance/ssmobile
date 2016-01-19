@@ -3699,3 +3699,7 @@ div.gform_wrapper div.radio {margin:10px;}
 .theme-ssmobile .bv-popup-in {
 	display: none !important;
 }
+
+.bv-content-data-icon img.emoji {
+	width: 18px !important;
+}
