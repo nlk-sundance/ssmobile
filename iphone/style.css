@@ -3705,4 +3705,9 @@ div.gform_wrapper div.radio {margin:10px;}
 }
 
 /* Scroll menu on mobile landscape view */
-#main-menu{ overflow-y: scroll; bottom: 0; overflow-x: hidden; }  
+@media only screen  
+and (max-device-width : 767px) 
+and (orientation : landscape) {
+	 
+	#main-menu{ overflow-y: scroll; bottom: 0; overflow-x: hidden; }  	
+}
